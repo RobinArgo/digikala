@@ -1,0 +1,33 @@
+.article-images {
+  width: 100%;
+  height: 280px;
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-family);
+  .article-images-center {
+    width: 1336px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .article-images-item {
+      width: 320px;
+      height: 265px;
+      border: 1px solid rgb(222, 218, 218);
+      border-radius: 14px;
+      cursor: pointer;
+
+      img {
+        width: 320px;
+        border-radius: 14px 14px 0 0;
+      }
+
+      p {
+        padding: 0 15px 0 15px;
+        box-sizing: border-box;
+        font-size: 12px;
+      }
+    }
+  }
+}

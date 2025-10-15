@@ -1,0 +1,23 @@
+.info {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+
+  p {
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+  }
+
+  span {
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background-color: #acacb1;
+  }
+}

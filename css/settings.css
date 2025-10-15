@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  width: 100%;
+}
+@font-face {
+  font-family: vaziri;
+  src: url(../fonts/fa/Vazir.eot), url(../fonts/fa/Vazir.ttf),
+    url(../fonts/fa/Vazir.woff), url(../fonts/fa/Vazir.woff2);
+}
+@font-face {
+  font-family: vaziriNumber;
+  src: url(../fonts/fa/Vazir-Bold-FD-WOL.ttf);
+}
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/Yekan.ttf);
+}
+:root {
+  --font-family: vaziri;
+  --number: vaziriNumber;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+  font-size: 14px;
+  font-weight: bold;
+  color: #2b2b2b;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next,
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  border: 2px solid lightgray;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  width: 16px !important;
+  height: 5px !important;
+  background-color: whitesmoke !important;
+  border-radius: 7px !important;
+}
