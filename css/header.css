@@ -176,6 +176,7 @@
                 height: 48px;
 
                 .submenu-right-item-link {
+                  text-decoration: none;
                   line-height: 45px;
                   color: #000000;
                   direction: rtl;
@@ -192,7 +193,7 @@
                     margin-left: 9px;
                   }
                   &:hover {
-                    fill: #1b3c1c;
+                    fill: #ef4056;
                     background-color: #ffff;
                     color: #ef4056;
                   }
@@ -543,7 +544,4 @@
 #city,
 #close2 {
   display: none;
-}
-.active-submenu {
-  display: block !important;
 }

@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   .category-center {
-    width: 1336px;
+    width: 1325px;
     height: 100%;
     margin: 0 auto;
     display: flex;
@@ -72,7 +72,7 @@
         .more1-center {
           background-color: white;
           position: fixed;
-          width: 768px;
+          width: 45%;
           height: 80vh;
           left: calc(50% - 50% / 2);
           top: calc(50% - 80vh / 2);
@@ -149,7 +149,6 @@
                 width: 100%;
                 display: flex;
                 padding-right: 18px;
-                justify-content: center;
                 gap: 14px;
                 .more1-items-1 {
                   width: 304px;
@@ -158,7 +157,7 @@
                   border: 1px solid lightgray;
                   display: flex;
                   cursor: pointer;
-                  justify-content: center;
+                  justify-content: space-between;
                   margin-top: 10px;
 
                   img {
