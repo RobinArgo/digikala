@@ -545,3 +545,10 @@
 #close2 {
   display: none;
 }
+.menu-nav-item-link:hover
+  ~ .submenu
+  .submenu-right
+  .submenu-right-item:first-child
+  .submenu-left-items {
+  display: block !important;
+}
