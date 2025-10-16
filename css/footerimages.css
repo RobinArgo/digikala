@@ -1,11 +1,10 @@
 .footerimages {
-  width: 100%;
+  width: 1520px;
   height: 160px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row-reverse wrap;
-  background-color: black;
 
   .image {
     background-color: #f0f0f1;
